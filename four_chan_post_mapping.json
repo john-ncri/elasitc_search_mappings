@@ -1,0 +1,45 @@
+{
+  "mappings": {
+    "dynamic": "false",
+    "_source": {
+    },
+    "properties": {
+      "id": {
+        "type": "long"
+      },
+      "board": {
+        "type": "text"
+      },
+      "thread": {
+        "type": "long"
+      },
+      "last_ingested": {
+        "type": "date",
+        "format": "EEE MMM dd HH:mm:ss Z yyyy||epoch_millis"
+      },
+      "posted_at": {
+        "type": "date",
+        "format": "EEE MMM dd HH:mm:ss Z yyyy||epoch_millis"
+      },
+      "text": {
+        "type": "text"
+      },
+      "has_media": {
+        "type": "boolean"
+      },
+      "user_id": {
+        "type": "text"
+      },
+      "original_json": {
+        "type": "object"
+      },
+      "user_country": {
+        "type": "text"
+      },
+      "is_indexed": {
+        "type": "boolean"
+      }
+    }
+  }
+}
+

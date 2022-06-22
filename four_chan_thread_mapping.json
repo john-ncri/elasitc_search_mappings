@@ -1,0 +1,54 @@
+{
+  "mappings": {
+    "dynamic": "false",
+    "_source": {
+    },
+    "properties": {
+      "id": {
+        "type": "long"
+      },
+      "board": {
+        "type": "text"
+      },
+      "is_archived": {
+        "type": "boolean"
+      },
+      "is_dropped": {
+        "type": "boolean"
+      },
+      "archived_at": {
+        "type": "date",
+        "format": "EEE MMM dd HH:mm:ss Z yyyy||epoch_millis"
+      },
+      "last_ingested": {
+        "type": "date",
+        "format": "EEE MMM dd HH:mm:ss Z yyyy||epoch_millis"
+      },
+      "last_modified": {
+        "type": "date",
+        "format": "EEE MMM dd HH:mm:ss Z yyyy||epoch_millis"
+      },
+      "num_replies": {
+        "type": "long"
+      },
+      "subject": {
+        "type": "text"
+      },
+      "url": {
+        "type": "text"
+      },
+      "unique_posters": {
+        "type": "long"
+      },
+      "stickied": {
+        "type": "boolean"
+      },
+      "closed": {
+        "type": "boolean"
+      },
+      "is_indexed": {
+        "type": "boolean"
+      }
+    }
+  }
+}

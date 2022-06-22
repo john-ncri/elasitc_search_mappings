@@ -1,0 +1,31 @@
+{
+  "mappings": {
+    "dynamic": "false",
+    "_source": {
+    },
+    "properties": {
+      "id": {
+        "type": "long"
+      },
+      "title": {
+        "type": "text"
+      },
+      "description": {
+        "type": "text"
+      },
+      "has_archive": {
+        "type": "boolean"
+      },
+      "original_json": {
+        "type": "object"
+      },
+      "last_ingested": {
+        "type": "date",
+        "format": "EEE MMM dd HH:mm:ss Z yyyy||epoch_millis"
+      },
+      "is_indexed": {
+        "type": "boolean"
+      }
+    }
+  }
+}

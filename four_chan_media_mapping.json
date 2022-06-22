@@ -1,0 +1,36 @@
+{
+  "mappings": {
+    "dynamic": "false",
+    "_source": {
+    },
+    "properties": {
+      "post_id": {
+        "type": "long"
+      },
+      "id": {
+        "type": "long"
+      },
+      "file_ext": {
+        "type": "text"
+      },
+      "file_name": {
+        "type": "text"
+      },
+      "file_size": {
+        "type": "long"
+      },
+      "md5": {
+        "type": "text"
+      },
+      "was_deleted": {
+        "type": "boolean"
+      },
+      "media_binary": {
+        "type": ""
+      },
+      "is_indexed": {
+        "type": "binary"
+      }
+    }
+  }
+}
