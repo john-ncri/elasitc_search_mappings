@@ -1,3 +1,14 @@
+
+example:
+  id = 3
+  title = 3DCG
+  description = /3/ - 3DCG"" is 4chan's board for 3D modeling and imagery.
+  has_archive = true
+  original_json = {ommitted for brevity}
+  last_ingested = 2022-05-20 10:05:12.086968
+  is_indexed = true
+
+
 {
   "mappings": {
     "dynamic": "false",
